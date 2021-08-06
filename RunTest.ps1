@@ -4,7 +4,7 @@ $testPath = "$PSScriptRoot\SimpleTest"
 
 $uft = New-Object -ComObject “QuickTest.Application"
 $uft.Launch()
-$uft.Visible = $True
+# $uft.Visible = $True
 $uft.Open($testPath, $False, $False)
 
 $test = $uft.Test

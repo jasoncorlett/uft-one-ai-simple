@@ -8,7 +8,7 @@ set b=Browser("CreationTime:=0")
 b.ClearCache
 b.Navigate "http://nimbusserver.aos.com:8000"
 b.Sync
-wait(2)
+' wait(2)
 b.Maximize
 
 AIUtil.SetContext b 	
